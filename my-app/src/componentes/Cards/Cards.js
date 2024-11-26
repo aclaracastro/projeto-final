@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React from "react";
 
 const conjuntoUniforme = [
     {
@@ -21,10 +21,6 @@ const conjuntoUniforme = [
       },
 
 ];
-
-// useEffect(() => { //precisa estar dentro de uma funcao 
-//   fetch('https://dog.ceo/api/breeds/image/random')
-// })
 
 const Card = () => {
     return (
